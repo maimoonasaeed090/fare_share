@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/dashboardbackground"
+    tools:context=".activities.HomeScreenActivity"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="255dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/kavoon"
+
+        android:paddingLeft="5dp"
+        android:paddingBottom="3dp"
+        android:text="@string/welcome"
+        android:textColor="#FFFFFF"
+        android:textSize="44dp"
+        android:textStyle="normal"
+       android:textAlignment="center"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardAdmin"
+        android:layout_width="150dp"
+        android:layout_height="155dp"
+        app:cardBackgroundColor="#54305a"
+        app:cardCornerRadius="40dp"
+        cardUseCompatPadding="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="19dp">
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/admincard"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/carddriver"
+        android:layout_width="150dp"
+        android:layout_height="155dp"
+        android:layout_marginTop="19dp"
+        app:cardBackgroundColor="#54305a"
+        app:cardCornerRadius="40dp"
+
+        cardUseCompatPadding="true"
+        android:layout_gravity="center">
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/drivercard"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardpassenger"
+        android:layout_width="150dp"
+        android:layout_height="155dp"
+        android:layout_marginTop="19dp"
+        app:cardBackgroundColor="#54305a"
+        app:cardCornerRadius="40dp"
+        cardElevation="15dp"
+        cardUseCompatPadding="true"
+        android:layout_gravity="center">
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:src="@drawable/passengercard"
+            />
+    </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>

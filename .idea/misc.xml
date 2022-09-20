@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1835" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/drawable/ic_baseline_mail_outline_24.xml" value="0.1835" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1835" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/drawable/menu.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/drawable/name.xml" value="0.1835" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/drawable/phone.xml" value="0.1835" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/drawable/pic.xml" value="0.203" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/drawable/picon.xml" value="0.1835" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/drawable/profile.xml" value="0.114" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/drawable/round_background.xml" value="0.1385" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/drawable/v_type.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/layout/activity_add_fare.xml" value="0.1796875" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/layout/activity_addfare.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/layout/activity_admindashboard.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/layout/activity_adminlogin.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/layout/activity_adminportal.xml" value="0.12" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/layout/activity_create_fare.xml" value="0.1796875" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/layout/activity_create_fare2.xml" value="0.1796875" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/layout/activity_create_ride.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/layout/activity_driver.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/layout/activity_driver_home_page.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/layout/activity_driver_list.xml" value="0.2" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/layout/activity_driver_profile.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/layout/activity_driver_register.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/layout/activity_driver_request.xml" value="0.2" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/layout/activity_driverdashboard.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/layout/activity_driverlogin.xml" value="0.2" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/layout/activity_extera.xml" value="0.2" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/layout/activity_exterawork.xml" value="0.18333333333333332" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/layout/activity_find_ride.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/layout/activity_passenger.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/layout/activity_passenger_list.xml" value="0.2" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/layout/activity_passenger_profile.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/layout/activity_passenger_register.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/layout/activity_passengerdashboard.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/layout/activity_passengerlogin.xml" value="0.2" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/layout/activity_rides_ph.xml" value="0.2" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/layout/activity_roughwork.xml" value="0.18333333333333332" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/layout/activity_splash.xml" value="0.18811881188118812" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/layout/activity_update_passenger.xml" value="0.18177083333333333" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/layout/activity_updatedriver.xml" value="0.18177083333333333" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/layout/allpassengers_list.xml" value="0.2" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/layout/allpassengersitem.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/layout/content_extera.xml" value="0.2" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/layout/dlistitem.xml" value="0.2" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/layout/fragment_completed_rides.xml" value="0.2" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/layout/fragment_driver_profile.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/layout/fragment_first.xml" value="0.18333333333333332" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/layout/fragment_passenger_profile.xml" value="0.2" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/layout/fragment_passenger_profile_fregment.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/layout/fragment_pending_rides.xml" value="0.2" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/layout/fragment_second.xml" value="0.18333333333333332" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/layout/fragment_submitrattings.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/layout/fregment_driver_profile.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/layout/fregment_passenger_profile.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/layout/fregment_ride_history.xml" value="0.2" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/layout/fregment_update_driver_profile.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/layout/fregment_update_passenger_profile.xml" value="0.4775" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/layout/fregment_update_river_profile.xml" value="0.2" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/layout/home.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/layout/item_gender_spinner.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/layout/passengerprofile.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/layout/passengerslistitem.xml" value="0.2" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/layout/plistitem.xml" value="0.2" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/layout/rating_dialogue_layout.xml" value="0.2" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/layout/requests.xml" value="0.2" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/layout/requests_activity.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/layout/requests_item.xml" value="0.2" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/layout/rideshistory_item.xml" value="0.2" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/layout/rough.xml" value="0.2" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/layout/submit_raiting.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/layout/toolbar.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/layout/toolbarcreateride.xml" value="0.19479166666666667" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/fareshare/app/src/main/res/layout/viewraitings.xml" value="0.2" />
+        <entry key="..\:/fareshare/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1135" />
+        <entry key="..\:/fareshare/app/src/main/res/drawable/ic_baseline_mail_outline_24.xml" value="0.1135" />
+        <entry key="..\:/fareshare/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1635" />
+        <entry key="..\:/fareshare/app/src/main/res/drawable/picon.xml" value="0.105" />
+        <entry key="..\:/fareshare/app/src/main/res/layout/activity_adminlogin.xml" value="0.225" />
+        <entry key="..\:/fareshare/app/src/main/res/layout/activity_adminportal.xml" value="0.18" />
+        <entry key="..\:/fareshare/app/src/main/res/layout/activity_driver.xml" value="0.25" />
+        <entry key="..\:/fareshare/app/src/main/res/layout/activity_driver_register.xml" value="0.225" />
+        <entry key="..\:/fareshare/app/src/main/res/layout/activity_main.xml" value="0.225" />
+        <entry key="..\:/fareshare/app/src/main/res/layout/activity_passenger.xml" value="0.25" />
+        <entry key="..\:/fareshare/app/src/main/res/layout/activity_splash.xml" value="0.25" />
+        <entry key="..\:/fareshare/app/src/main/res/layout/home.xml" value="0.225" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

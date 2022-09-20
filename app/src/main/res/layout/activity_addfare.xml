@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activities.AddFareActivity">
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="105dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="6dp"
+
+        android:drawablePadding="2dp"
+        android:fontFamily="@font/kavoon"
+        android:gravity="center"
+        android:paddingTop="1dp"
+        android:text="@string/create_fare"
+        android:textAlignment="center"
+        android:textColor="#54305a"
+        android:textSize="46sp" />
+
+
+
+
+
+
+    <EditText
+        android:id="@+id/base_fare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:drawablePadding="7dp"
+        android:ems="10"
+        android:fontFamily="@font/kavoon"
+        android:hint="@string/enter_base_fare"
+        android:inputType="phone"
+        android:minHeight="48dp"
+        android:textAlignment="textStart"
+        android:textSize="14sp"
+        android:autofillHints="" />
+    <EditText
+        android:id="@+id/km_fare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:drawablePadding="7dp"
+        android:ems="10"
+        android:fontFamily="@font/kavoon"
+        android:hint="@string/enter_km_fare"
+        android:inputType="phone"
+        android:minHeight="48dp"
+        android:textAlignment="textStart"
+        android:textSize="14sp"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/add_fare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#54305a"
+        android:fontFamily="@font/kavoon"
+        android:text="@string/add"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:cornerRadius="20dp" />
+    <Button
+        android:id="@+id/update_fare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#54305a"
+        android:fontFamily="@font/kavoon"
+        android:text="@string/update"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:cornerRadius="20dp" />
+
+
+
+</LinearLayout>

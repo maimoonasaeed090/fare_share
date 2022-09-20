@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#54305a"
+    android:orientation="vertical"
+    tools:context=".activities.PassengerProfileActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginEnd="20dp"
+                android:id="@+id/imgpassengerprofile"
+                app:srcCompat="@drawable/profile"
+                android:contentDescription="TODO"
+                tools:ignore="ContentDescription" />
+            <TextView
+                android:id="@+id/pename"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:text="@string/name"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:background="@color/white"/>
+            <EditText
+                android:id="@+id/pname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="10dp"
+                android:drawablePadding="5dp"
+                android:paddingStart="5dp"
+                android:fontFamily="@font/kavoon"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textAlignment="textStart"
+                android:textSize="14sp"
+                android:background="@color/white"
+                android:autofillHints=""
+                tools:ignore="LabelFor,RtlSymmetry" />
+            <TextView
+                android:id="@+id/peemail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:text="Email:"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:background="@color/white"/>
+            <TextView
+                android:id="@+id/pemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="10dp"
+                android:drawablePadding="5dp"
+                android:paddingStart="5dp"
+                android:fontFamily="@font/kavoon"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textAlignment="textStart"
+                android:textSize="14sp"
+                android:background="@color/white"
+                tools:ignore="RtlSymmetry,TextViewEdits" />
+            <TextView
+                android:id="@+id/pecellno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:text="Cell no:"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:background="@color/white"/>
+            <TextView
+                android:id="@+id/pcellno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="10dp"
+                android:drawablePadding="5dp"
+                android:paddingStart="5dp"
+                android:fontFamily="@font/kavoon"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textAlignment="textStart"
+                android:textSize="14sp"
+                android:background="@color/white"
+                tools:ignore="RtlSymmetry,TextViewEdits" />
+
+            <TextView
+                android:id="@+id/pegender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:text="Gender:"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:background="@color/white"/>
+            <TextView
+                android:id="@+id/pgender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="10dp"
+                android:drawablePadding="5dp"
+                android:paddingStart="5dp"
+                android:fontFamily="@font/kavoon"
+                android:minHeight="48dp"
+                android:textAlignment="textStart"
+                android:textSize="14sp"
+                android:background="@color/white"
+                tools:ignore="RtlSymmetry" />
+            <Button
+                android:id="@+id/btn_edit_precord"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="18dp"
+
+                android:backgroundTint="@color/white"
+                app:cornerRadius="20dp"
+                android:text="Edit Record"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textColor="#54305a"
+                android:textSize="18sp" />
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

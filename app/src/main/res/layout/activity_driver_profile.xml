@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:background="#54305a"
+android:orientation="vertical"
+tools:context=".activities.DriverProfileActivity">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="20dp"
+        android:id="@+id/imgdriverprofile"
+        app:srcCompat="@drawable/profile"/>
+    <TextView
+        android:id="@+id/d_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:text="Name:"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:background="@color/white"/>
+    <TextView
+        android:id="@+id/driver_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:drawablePadding="5dp"
+        android:paddingStart="5dp"
+        android:fontFamily="@font/kavoon"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textAlignment="textStart"
+        android:textSize="14sp"
+        android:background="@color/white"/>
+    <TextView
+        android:id="@+id/dremail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:text="Email:"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:background="@color/white"/>
+    <TextView
+        android:id="@+id/driver_mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:drawablePadding="5dp"
+        android:paddingStart="5dp"
+        android:fontFamily="@font/kavoon"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textAlignment="textStart"
+        android:textSize="14sp"
+        android:background="@color/white"/>
+    <TextView
+        android:id="@+id/dcellno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:text="Cell no:"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:background="@color/white"/>
+    <TextView
+        android:id="@+id/driver_cellno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:drawablePadding="5dp"
+        android:paddingStart="5dp"
+        android:fontFamily="@font/kavoon"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textAlignment="textStart"
+        android:textSize="14sp"
+        android:background="@color/white"/>
+
+
+    <TextView
+        android:id="@+id/d_cnic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:text="Cnic:"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:background="@color/white"/>
+    <TextView
+        android:id="@+id/driver_cnic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:drawablePadding="5dp"
+        android:paddingStart="5dp"
+        android:fontFamily="@font/kavoon"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textAlignment="textStart"
+        android:textSize="14sp"
+        android:background="@color/white"/>
+    <TextView
+        android:id="@+id/d_gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:text="Gender:"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:background="@color/white"/>
+    <TextView
+        android:id="@+id/driver_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:drawablePadding="5dp"
+        android:paddingStart="5dp"
+        android:fontFamily="@font/kavoon"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textAlignment="textStart"
+        android:textSize="14sp"
+        android:background="@color/white"/>
+    <TextView
+        android:id="@+id/dvehicaltype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:text="vehicle type:"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:background="@color/white"/>
+    <TextView
+        android:id="@+id/driver_vehicletype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:drawablePadding="5dp"
+        android:paddingStart="5dp"
+        android:fontFamily="@font/kavoon"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textAlignment="textStart"
+        android:textSize="14sp"
+        android:background="@color/white"/>
+
+    <TextView
+        android:id="@+id/dvehicalno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:text="No plate :"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:background="@color/white"/>
+    <TextView
+        android:id="@+id/driver_vehiclenumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:drawablePadding="5dp"
+        android:paddingStart="5dp"
+        android:fontFamily="@font/kavoon"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textAlignment="textStart"
+        android:textSize="14sp"
+        android:background="@color/white"/>
+
+    <TextView
+        android:id="@+id/d_licence"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:text="licence no :"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:background="@color/white"/>
+    <TextView
+        android:id="@+id/driver_licenceno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:drawablePadding="5dp"
+        android:paddingStart="5dp"
+        android:fontFamily="@font/kavoon"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textAlignment="textStart"
+        android:textSize="14sp"
+        android:background="@color/white"/>
+
+
+    <Button
+        android:id="@+id/btn_edit_drecord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        app:cornerRadius="20dp"
+        android:layout_margin="18dp"
+        android:text="Edit Record"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textColor="#54305a"
+        android:textSize="18sp" />
+
+
+  </LinearLayout>
+
+
+</ScrollView>
+
+</LinearLayout>
