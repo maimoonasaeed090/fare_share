@@ -13,4 +13,7 @@ public class ApiPath {
     public static final String GET_ALLDRIVERS = ROOT_URL + "getAlldrivers.php";
     public static final String UPDATEPASSENGER_STATUS = ROOT_URL + "UpdatePassengerStatus.php";
     public static final String UPDATEDRIVER_STATUS = ROOT_URL + "UpdateDriverStatusAPI.php";
+    public static final String UPDATEDRIVER_RECORD = ROOT_URL + "UpdateDriverRecord.php";
+    public static final String UPDATEPASSENGER_REORD=ROOT_URL+"UpdatePassengerRecord.php";
+
 }

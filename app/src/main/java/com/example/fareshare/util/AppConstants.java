@@ -2,6 +2,7 @@ package com.example.fareshare.util;
 
 public class AppConstants {
     //DRIVER DETAILS.
+    public static String d_Id="d_id";
     public static String dName = "dName";
     public static String dMail = "dMail";
     public static String dCellno = "dCellno";

@@ -69,4 +69,26 @@ public interface NetworkCalls {
     @POST(ApiPath.UPDATEDRIVER_STATUS)
     @FormUrlEncoded
     Call<JsonObject> updatedriverstatus(@Field("d_id") int id, @Field("d_status") String status);
+    //upate passenger
+    @POST(ApiPath.UPDATEDRIVER_RECORD)
+    @FormUrlEncoded
+    Call<Driver>updatedriverrecord(@Field("d_id") int id,
+                                    @Field("d_name") String name,
+                                    @Field("d_email") String email,
+                                    @Field("d_cellno") String d_cellno,
+                                    @Field("d_vehicaltype") String vehicaltype,
+                                    @Field("d_vehical_numplate") String numberplate,
+                                    @Field("d_licence") String licence);
+
+   //updatepassenger
+    @POST(ApiPath.UPDATEDRIVER_STATUS)
+    @FormUrlEncoded
+    Call<Passenger>updatepassengerrecord(@Field("p_id") int id,
+                                         @Field("p_name") String name,
+                                         @Field("p_email") String email,
+                                         @Field("p_cellno") String p_cellno
+
+    );
+
+
 }

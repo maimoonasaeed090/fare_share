@@ -36,7 +36,7 @@
             android:textStyle="bold"
             android:background="@color/white"/>
         <EditText
-            android:id="@+id/driver_name"
+            android:id="@+id/edtUpdateDriverName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
@@ -64,7 +64,7 @@
             android:textStyle="bold"
             android:background="@color/white"/>
         <EditText
-            android:id="@+id/driver_mail"
+            android:id="@+id/edtUpdateDriverMail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
@@ -92,7 +92,7 @@
             android:textStyle="bold"
             android:background="@color/white"/>
         <EditText
-            android:id="@+id/driver_cellno"
+            android:id="@+id/edtUpdateDriverCellno"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
@@ -107,90 +107,9 @@
             android:textAlignment="textStart"
             android:textSize="14sp"
             android:background="@color/white"/>
-        <TextView
-            android:id="@+id/dphoneno"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginEnd="20dp"
-            android:layout_marginTop="10dp"
-            android:padding="10dp"
-            android:text="Phone no:"
-            android:textSize="15sp"
-            android:textStyle="bold"
-            android:background="@color/white"/>
-        <EditText
-            android:id="@+id/d_phone"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginEnd="20dp"
-            android:layout_marginBottom="10dp"
-            android:drawablePadding="5dp"
-            android:paddingStart="5dp"
-            android:fontFamily="@font/kavoon"
-            android:inputType="textPersonName"
-            android:minHeight="48dp"
-            android:textAlignment="textStart"
-            android:textSize="14sp"
-            android:background="@color/white"/>
-        <TextView
-            android:id="@+id/d_cnic"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginEnd="20dp"
-            android:layout_marginTop="10dp"
-            android:padding="10dp"
-            android:text="Cnic:"
-            android:textSize="15sp"
-            android:textStyle="bold"
-            android:background="@color/white"/>
-        <EditText
-            android:id="@+id/driver_cnic"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginEnd="20dp"
-            android:layout_marginBottom="10dp"
-            android:drawablePadding="5dp"
-            android:paddingStart="5dp"
-            android:fontFamily="@font/kavoon"
-            android:inputType="textPersonName"
-            android:minHeight="48dp"
-            android:textAlignment="textStart"
-            android:textSize="14sp"
-            android:background="@color/white"/>
-        <TextView
-            android:id="@+id/d_gender"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginEnd="20dp"
-            android:layout_marginTop="10dp"
-            android:padding="10dp"
-            android:text="Gender:"
-            android:textSize="15sp"
-            android:textStyle="bold"
-            android:background="@color/white"/>
-        <EditText
-            android:id="@+id/dr_gender"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginEnd="20dp"
-            android:layout_marginBottom="10dp"
-            android:drawablePadding="5dp"
-            android:paddingStart="5dp"
-            android:fontFamily="@font/kavoon"
-            android:inputType="textPersonName"
-            android:minHeight="48dp"
-            android:textAlignment="textStart"
-            android:textSize="14sp"
-            android:background="@color/white"/>
+
+
+
         <TextView
             android:id="@+id/dvehicaltype"
             android:layout_width="wrap_content"
@@ -204,7 +123,7 @@
             android:textStyle="bold"
             android:background="@color/white"/>
         <EditText
-            android:id="@+id/d_vehicletype"
+            android:id="@+id/edtUpdateDrivervehicaltype"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
@@ -233,7 +152,7 @@
             android:textStyle="bold"
             android:background="@color/white"/>
         <EditText
-            android:id="@+id/d_vehiclenumber"
+            android:id="@+id/edtUpdateDrivernoplate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
@@ -262,7 +181,7 @@
             android:textStyle="bold"
             android:background="@color/white"/>
         <EditText
-            android:id="@+id/driver_licence"
+            android:id="@+id/edtUpdateDriverLicence"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
@@ -280,7 +199,7 @@
 
 
         <Button
-            android:id="@+id/updatedriver"
+            android:id="@+id/update_driver_record"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
 

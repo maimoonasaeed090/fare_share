@@ -103,33 +103,7 @@
             android:textSize="14sp"
             android:background="@color/white"/>
 
-        <TextView
-            android:id="@+id/pgender"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginEnd="20dp"
-            android:layout_marginTop="10dp"
-            android:padding="10dp"
-            android:text="Gender:"
-            android:textSize="15sp"
-            android:textStyle="bold"
-            android:background="@color/white"/>
-        <EditText
-            android:id="@+id/passenger_gender"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginEnd="20dp"
-            android:layout_marginBottom="10dp"
-            android:drawablePadding="5dp"
-            android:paddingStart="5dp"
-            android:fontFamily="@font/kavoon"
-            android:minHeight="48dp"
-            android:textAlignment="textStart"
-            android:textSize="14sp"
-            android:background="@color/white"/>
+
         <Button
             android:id="@+id/updatepassenger"
             android:layout_width="wrap_content"
